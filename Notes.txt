@@ -1,0 +1,7 @@
+Create methods in Cart for:
+ a. PayTheOrder
+ b. PlaceOrder
+
+Create Class ShippingInfos that will have:
+ a. Array of ShippingInfo
+ b. set the Methods from ShippingInfo.
