@@ -1,10 +1,12 @@
 <?php
   class Discount{
+    private int $id;
     private int $discountAfterQuantity;
     private string $discountType;
     private double $DiscountPrice;
 
 // SET METHODS
+    public function setID(int $id){ $this->id = $id; }
     public function setDiscountAfterQuantity(int $discountAfterQuantity){
       $this->discountAfterQuantity = $discountAfterQuantity;
     }

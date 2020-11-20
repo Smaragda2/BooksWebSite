@@ -8,7 +8,7 @@
 
     private function getAllBooksFromDB(){
       $sql = "SELECT * FROM Book";
-      $stmt = $this->getConnection()->query($sql);
+      $stmt = $this->conn->query($sql);
 
       while ($row = $stmt->fetch()) {
         $tempBook = new Book();
